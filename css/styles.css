@@ -1,4 +1,12 @@
+/*  */
+
+:root { --principal: rgb(255, 180, 0);}
+
 /* Estilos Generales */
+
+html{
+    scroll-behavior: smooth;
+}
 
 body{
     margin: 0;
@@ -11,7 +19,7 @@ body{
 
 a{
     text-decoration: none;
-    color: #0ff;
+    color: var(--principal);
 }
 
 li{
@@ -20,6 +28,7 @@ li{
 
 h1{
     font-size: 2.8em;
+    font-family: 
 }
 
 h2{
@@ -30,7 +39,19 @@ h3{
     font-size: 1.7em;
 }
 
-/* Estilos por bloques */
+/* -------- Estilos por bloques -------- */
+
+/* HEADER */
+
+header a{
+    margin-left:0.5em;
+    margin-right:0.5em;
+}
+
+
+/* REPERTORIO */
+
+
 
 .repertorio a{
     margin-left: 8px;
