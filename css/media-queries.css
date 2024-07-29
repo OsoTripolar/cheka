@@ -1,0 +1,23 @@
+@media (min-width: 1000px){
+    /* La siguiente línea solo la activo como guía cuando modifico los query */
+    /* :root { --principal: rgb(255, 180, 200);} */
+    
+    header h1{
+        font-size: 4.5em;
+    }
+
+    header nav{
+        flex-direction: row;
+    }
+
+    header nav a{
+        font-size: 1.1em;
+    }
+
+    header h1{
+        background-position: center 35%;
+        background-size: cover;
+    }
+}
+
+
